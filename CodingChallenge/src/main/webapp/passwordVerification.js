@@ -25,26 +25,24 @@ The tool should verify if a password meets the requirements for a strong passwor
 //Assumption: empty space is not a letter, but still chount as a charaster, so 1234_678 is 8 character long, but not a valid password
 //returns "valid password" if password is valid, "invalid password" otherwise 
 function iterationOnePasswordVerification(password){
-    var msg = "invalid passwrd";
+    var msg = "invalid password";
     //making sure variable password is a string, because javascript does not check types
     if(typeof password == "string" || password instanceof String){
         //checking if password is more than 8 characters long
-        if(password.length >=8){
-            var charArray = password.split("");
-            var letterCount = 0;
-            var numberCount = 0;
-            for(var i=0;i<charArray.length;i++){
-                if(charArray[i] != " "){
-                    if(isNaN(charArray[i])){
-                        letterCount++;
-                    }else{
-                        numberCount++;
-                    }
-                }
+        var charArray = password.split("");
+        var letterCount = 0;
+        var numberCount = 0;
+        for(var i=0;i<charArray.length;i++){
+            if(charArray[i] != " " && isNaN(charArray[i]) == false){
+                numberCount++;
             }
-            if ((letterCount>=1) && (numberCount >=1)){
-                msg = "valid password";
+            var charCode = charArray[i].charCodeAt(0);
+            if((charCode >= 65 && charCode < 91) || (charCode >= 97 && charCode < 123)){
+                letterCount++;
             }
+        }
+        if(password.length >=8 && numberCount>=1 && letterCount>=1){
+            msg = "valid password";
         }
     }
     return msg;

@@ -1,0 +1,52 @@
+#Author: jiajunatwork@gmail.com
+#This is a coding challenge from Ultranaut.
+#Iteration 1
+#The tool should verify if a password meets the requirements for a strong password
+#• The password must be at least 8 characters in length
+#• The password must contain at least 1 letter
+#• The password must contain at least 1 number
+#
+# Analysis: possbile outcomes of different factors
+# length: 0, less than 8, 8, greater than 8
+# letter count: 0, 1, greater than 1
+# number count: 0, 1, greater than 1
+#
+# note: null = user didnt input password, _ = space or some other random special characters
+#@tag
+#Feature: Iteration 1 of password verification app
+#
+#  @tag1
+#  Scenario: password verification app should judge user's password based on the iteration 1 guideline
+#    Given User launch the password verification app
+#    When user input his password
+#    And user clicked on the "check my password" button
+#    Then the app should provide a judgement on the password that user entered
+#      | password  | outcome |
+      | null      | F       |
+      | _____     | F       |
+      | a_____    | F       |
+      | aa____    | F       |
+      | 1_____    | F       |
+      | 1a___     | F       |
+      | 1aa_      | F       |
+      | 11_       | F       |
+      | 11a_      | F       |
+      | 11aa_     | F       |
+      | ________  | F       |
+      | a_______  | F       |
+      | aa______  | F       |
+      | 1_______  | F       |
+      | 1a______  | T       |
+      | 1aa_____  | T       |
+      | 11______  | F       |
+      | 11a_____  | T       |
+      | 11aa____  | T       |
+      | _________ | F       |
+      | a________ | F       |
+      | aa_______ | F       |
+      | 1________ | F       |
+      | 1a_______ | T       |
+      | 1aa______ | T       |
+      | 11_______ | F       |
+      | 11a______ | T       |
+      | 11aa_____ | T       |
