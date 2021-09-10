@@ -5,8 +5,8 @@ function verifyPassword(){
     console.log(`you entered ${password}`);
     //var message = iterationOnePasswordVerification(password);
     //var message = iterationTwoPasswordVerification(password);
-    var message = iterationThreePasswordVerification(password);
-    //var message = iterationFourPasswordVerification(password);
+    //var message = iterationThreePasswordVerification(password);
+    var message = iterationFourPasswordVerification(password);
     displayVerificationMessage(message);
 }
 
@@ -206,7 +206,7 @@ function iterationFourPasswordVerification(password){
                     result = result + ", password must be at least 13 characters long";
                 }
                 if(specialCharCount < 3){ // admin password must contains at least 3 special char
-                    result = result + ", password must contain at least three special characters";
+                    result = result + ", password must contains at least 3 special characters";
                 }
             }
         }else{  // user role is normal
@@ -219,10 +219,10 @@ function iterationFourPasswordVerification(password){
             }
         }
         if(letterCount < 1){ // password must contains at least one letter
-            result = result + ", password must contain at least one letter";
+            result = result + ", password must contains at least 1 letter";
         }
         if(numberCount < 1){ // password must contains at least one number
-            result = result + ", password must contain at least one number";
+            result = result + ", password must contains at least 1 number";
         }
     }
     msg = msg + result;

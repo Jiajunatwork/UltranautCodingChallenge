@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qa.tests.Iteration3Test">
+      <class name="qa.tests.Iteration4Test">
         <methods>
+          <include name="iteration4" invocation-numbers="70 73 74 75 78 79 85 88 89 90 93 94 115 118 119 120 123 124 130 133 134 135 138 139"/>
           <include name="closeApp"/>
-          <include name="iteration3" invocation-numbers="2 6 10 14 18 22 26 30 34 38 42 46 50 54 66 78 82 86 90 102"/>
           <include name="startApp"/>
         </methods>
-      </class> <!-- qa.tests.Iteration3Test -->
+      </class> <!-- qa.tests.Iteration4Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

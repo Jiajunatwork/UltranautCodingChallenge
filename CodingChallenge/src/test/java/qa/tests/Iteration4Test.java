@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
 //for each iteration, please make sure passwordVerification.js uses the corresponding password verification method.
 //for iteration 3, passwordVerification.js should use iterationThreePasswordVerification(password) method
 //because of iteration 3 added user role element, I must create a new set of test data, so use iteration3Data.txt as data file
-public class Iteration3Test {
+public class Iteration4Test {
 	WebDriver driver = null;
 	char[] mySpecialChar = {'!', '@', '#', '$', '%', '^', '&', '*'};
 	List<String> mySpecialCharList = Arrays.asList("!", "@", "#", "$", "%", "^", "&", "*");
@@ -41,7 +41,7 @@ public class Iteration3Test {
 		driver.close();
 	}
 	@Test(dataProvider = "iteration1DataProvider")
-	public void iteration3(String password, String result, String role) {
+	public void iteration4(String password, String result, String role) {
 		userEnterPassword(password);
 		userSelectRole(role);
 		userClickOnCheckMyPassword();
@@ -74,7 +74,7 @@ public class Iteration3Test {
 				numberCount++;
 			}else if(Character.isLetter(itr)) {
 				letterCount++;
-			}else if(mySpecialCharList.contains(itr)){
+			}else if(mySpecialCharList.contains(""+itr)){
 				specialCharCount++;
 			}
 		}
@@ -85,15 +85,15 @@ public class Iteration3Test {
 			result.add("must contains at least 1 letter");
 		}
 		if(role.toLowerCase().equals("normal")) {
-			if(password.length() < 8) {
-				result.add("must be at least 8 characters");
+			if(password.length() < 10) {
+				result.add("must be at least 10 characters");
 			}
 		}else {
 			if(password.length() < 13) {
 				result.add("must be at least 13 characters");
 			}
-			if(specialCharCount != 1) {
-				result.add("must contains exactly 1 special character");
+			if(specialCharCount < 3) {
+				result.add("must contains at least 3 special character");
 			}
 		}
 		return result;
@@ -122,7 +122,7 @@ public class Iteration3Test {
 				if (data.startsWith("#") == false) {
 					ArrayList<ArrayList<String>> temp = new ArrayList<>();
 					String result = data.substring(data.length() - 1, data.length());
-					String password = data.substring(0, data.length() - 1).replace("_", " ");
+					String password = data.substring(0, data.length() - 1).replace("_", " ")+"  ";
 					ArrayList<String> normalUser = new ArrayList<>();
 					normalUser.add(password);
 					normalUser.add(result);
@@ -130,26 +130,34 @@ public class Iteration3Test {
 					temp.add(normalUser); //test data for normal password added
 					dataCount+=1;
 					
-					String adminPasswordWithNoSpecialChar = password + "     ";
+					String adminPasswordWithNoSpecialChar = password + "   ";
 					ArrayList<String> adminUser = new ArrayList<>();
 					adminUser.add(adminPasswordWithNoSpecialChar);
-					adminUser.add("F");
+					adminUser.add("F"); //admin needs 3 special char
 					adminUser.add("admin");
 					temp.add(adminUser);
 					dataCount+=1;
 					
-					String adminPasswordWithOneSpecialChar = password + "    "+mySpecialChar[(iter++)%mySpecialChar.length];
+					String adminPasswordWithOneSpecialChar = password + "  "+mySpecialChar[(iter++)%mySpecialChar.length];
 					adminUser = new ArrayList<>();
 					adminUser.add(adminPasswordWithOneSpecialChar);
-					adminUser.add(result);
+					adminUser.add("F"); // admin needs 3 special char
 					adminUser.add("admin");
 					temp.add(adminUser);
 					dataCount+=1;
 					
-					String adminPasswordWithMoreThanOneSpecialChar = password + "   "+mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length];
+					String adminPasswordWithThreeSpecialChar = password + mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length];
 					adminUser = new ArrayList<>();
-					adminUser.add(adminPasswordWithMoreThanOneSpecialChar);
-					adminUser.add("F"); // because admin uses more than one special char
+					adminUser.add(adminPasswordWithThreeSpecialChar);
+					adminUser.add(result); 
+					adminUser.add("admin");
+					temp.add(adminUser);
+					dataCount++;
+					
+					String adminPasswordWithMoreThanThreeSpecialChar = password.replaceFirst(" ", "") +mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length]+mySpecialChar[(iter++)%mySpecialChar.length];
+					adminUser = new ArrayList<>();
+					adminUser.add(adminPasswordWithMoreThanThreeSpecialChar);
+					adminUser.add(result); 
 					adminUser.add("admin");
 					temp.add(adminUser);
 					dataCount++;
