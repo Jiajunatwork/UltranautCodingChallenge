@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5522" started-at="2021-09-09T23:53:04 EDT" finished-at="2021-09-09T23:53:10 EDT">
+  <suite name="Default suite" duration-ms="5708" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:36 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5522" started-at="2021-09-09T23:53:04 EDT" finished-at="2021-09-09T23:53:10 EDT">
-      <class name="qa.tests.Iteration1Test">
-        <test-method status="PASS" signature="startApp()[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="startApp" is-config="true" duration-ms="1759" started-at="2021-09-09T23:53:04 EDT" finished-at="2021-09-09T23:53:06 EDT">
+    <test name="Default test" duration-ms="5708" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:36 EDT">
+      <class name="qa.tests.Iteration2Test">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="startApp" is-config="true" duration-ms="1897" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="164" started-at="2021-09-09T23:53:06 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:06 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="158" started-at="2021-09-10T01:02:32 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="121" started-at="2021-09-09T23:53:06 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:06 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="153" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-09T23:53:06 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="138" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="150" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="131" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="154" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="130" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="155" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:07 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="137" started-at="2021-09-09T23:53:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="143" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="153" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -203,7 +203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="135" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="123" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:08 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="138" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -283,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="141" started-at="2021-09-09T23:53:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -299,7 +299,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -315,7 +315,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -331,7 +331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="119" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="116" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -379,7 +379,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="123" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="128" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -395,7 +395,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="128" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:09 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -411,7 +411,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-09T23:53:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:10 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -427,7 +427,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-09T23:53:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:10 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -443,7 +443,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="iteration1" duration-ms="128" started-at="2021-09-09T23:53:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-09T23:53:10 EDT">
+        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
           <params>
             <param index="0">
               <value>
@@ -459,11 +459,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:qa.tests.Iteration1Test@2a742aa2]" name="closeApp" is-config="true" duration-ms="50" started-at="2021-09-09T23:53:10 EDT" finished-at="2021-09-09T23:53:10 EDT">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="closeApp" is-config="true" duration-ms="51" started-at="2021-09-10T01:02:36 EDT" finished-at="2021-09-10T01:02:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- qa.tests.Iteration1Test -->
+      </class> <!-- qa.tests.Iteration2Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

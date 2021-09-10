@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class Iteration1Test {
+public class Iteration2Test {
 	WebDriver driver = null;
 	@BeforeClass
 	public void startApp() {
@@ -33,25 +33,43 @@ public class Iteration1Test {
 	}
 	@Test(dataProvider = "iteration1DataProvider")
 	public void iteration1(String password, String result) {
-		/*
-		 * WebElement inputBox = driver.findElement(By.id("psw"));
-		 * inputBox.sendKeys(password); WebElement button =
-		 * driver.findElement(By.className("signupbtn")); button.click(); WebElement
-		 * judgement = driver.findElement(By.id("msg")); String judgementResult =
-		 * judgement.getAttribute("innerHTML").toLowerCase();
-		 */
 		userEnterPassword(password);
 		userClickOnCheckMyPassword();
 		String judgementResult = getResult();
+		ArrayList<String> expectedResult = judgePassword(password);
 		if(result.toUpperCase().equals("F")) {
 			System.out.println("password: "+password+" , "+judgementResult+" vs. F");
 			Assert.assertTrue(judgementResult.startsWith("invalid password"));
+			for(String itr: expectedResult) {
+				Assert.assertTrue(judgementResult.contains(itr));
+			}
 		}else {
 			Assert.assertTrue(judgementResult.startsWith("valid password"));
 			System.out.println("password: "+password+" , "+judgementResult+" vs. T");
 		}
 	}
-
+	public ArrayList<String> judgePassword(String password){
+		ArrayList<String> result = new ArrayList<>();
+		int numberCount = 0;
+		int letterCount = 0;
+		for(char itr: password.toCharArray()) {
+			if(Character.isDigit(itr)){
+				numberCount++;
+			}else if(Character.isLetter(itr)) {
+				letterCount++;
+			}
+		}
+		if(password.length() < 8) {
+			result.add("must be at least 8 characters");
+		}
+		if(numberCount < 1) {
+			result.add("must contains at least 1 number");
+		}
+		if(letterCount < 1) {
+			result.add("must contains at least 1 letter");
+		}
+		return result;
+	}
 	public String translateTestData(String password) {
 		if(password.equals("null")){
 			return "";

@@ -3,8 +3,8 @@ function verifyPassword(){
     console.log("button clicked");
     var password = document.getElementById("psw").value;    
     console.log(`you entered ${password}`);
-    var message = iterationOnePasswordVerification(password);
-    //var message = iterationTwoPasswordVerification(password);
+    //var message = iterationOnePasswordVerification(password);
+    var message = iterationTwoPasswordVerification(password);
     //var message = iterationThreePasswordVerification(password);
     //var message = iterationFourPasswordVerification(password);
     displayVerificationMessage(message);
@@ -28,7 +28,6 @@ function iterationOnePasswordVerification(password){
     var msg = "invalid password";
     //making sure variable password is a string, because javascript does not check types
     if(typeof password == "string" || password instanceof String){
-        //checking if password is more than 8 characters long
         var charArray = password.split("");
         var letterCount = 0;
         var numberCount = 0;
@@ -57,36 +56,30 @@ function iterationTwoPasswordVerification(password){
     var msg = "invalid password";
     //making sure variable password is a string, because javascript does not check types
     if(typeof password == "string" || password instanceof String){ 
-        //checking if password is more than 8 characters long
-        if(password.length<8){
-            msg = msg + ", password must be at least 8 characters long";
+        var charArray = password.split("");
+        var letterCount = 0;
+        var numberCount = 0;
+        for(var i=0;i<charArray.length;i++){
+            if(charArray[i] != " " && isNaN(charArray[i]) == false){
+                numberCount++;
+            }
+            var charCode = charArray[i].charCodeAt(0);
+            if((charCode >= 65 && charCode < 91) || (charCode >= 97 && charCode < 123)){
+                letterCount++;
+            }
         }
-        if(password.length !=0){
-            var charArray = password.split("");
-            var letterCount = 0;
-            var numberCount = 0;
-            for(var i=0;i<charArray.length;i++){
-
-                if(charArray[i] != " "){
-                    if(isNaN(charArray[i])){
-                        letterCount++;
-                    }else{
-                        numberCount++;
-                    }
-                }
+        if(password.length >=8 && numberCount>=1 && letterCount>=1){
+            msg = "valid password";
+        }else{ // password is invalid, check for reasons
+            if(password.length < 8 ){
+                msg = msg + ", password must be at least 8 characters long";
             }
-            if ((letterCount>=1) && (numberCount >=1) && password.length >=8){
-                msg = "valid password";
-            }else{
-                if((letterCount<1)){
-                    msg = msg + ", password must contains at lease one letter";
-                }
-                if(numberCount<1){
-                    msg = msg + ", password must contains at lease one number";
-                }
+            if(numberCount < 1){
+                msg = msg + ", password must contains at least 1 number";
             }
-        }else{
-            msg = msg + ", password length is less than 8 characters";
+            if(letterCount < 1){
+                msg = msg + ", password must contains at least 1 letter";
+            }
         }
     }else{
         msg = "invalid password, password is not a string";
