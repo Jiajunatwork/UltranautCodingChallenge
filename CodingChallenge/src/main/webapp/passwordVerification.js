@@ -4,8 +4,8 @@ function verifyPassword(){
     var password = document.getElementById("psw").value;    
     console.log(`you entered ${password}`);
     //var message = iterationOnePasswordVerification(password);
-    var message = iterationTwoPasswordVerification(password);
-    //var message = iterationThreePasswordVerification(password);
+    //var message = iterationTwoPasswordVerification(password);
+    var message = iterationThreePasswordVerification(password);
     //var message = iterationFourPasswordVerification(password);
     displayVerificationMessage(message);
 }
@@ -113,42 +113,40 @@ function iterationThreePasswordVerification(password){
     }else{  // user selected admin role
         //making sure variable password is a string, because javascript does not check types
         if(typeof password == "string" || password instanceof String){ 
-            if(password.length<13){
-                result = result + ", password must be at least 13 characters long";
-            }
-            if(password.length>0){
-                var charArray = password.split("");
-                var letterCount = 0;
-                var numberCount = 0;
-                var specialCharCount = 0;
-                for(var i=0;i<password.length;i++){
-                    var charIsSpecial = specialCharArray.includes(charArray[i]);
-                    if(charIsSpecial){
-                        specialCharCount++;
-                    }else{
-                        if(charArray[i] != " "){ //making sure char at index i is not a space
-                            if(isNaN(charArray[i])){
-                                letterCount++;
-                            }else{
-                                numberCount++;
-                            }
-                        }
-                    }
+            var charArray = password.split("");
+            var letterCount = 0;
+            var numberCount = 0;
+            var specialCharCount = 0;
+            console.log("admin  "+password);
+            for(var i=0;i<password.length;i++){
+                var charIsSpecial = specialCharArray.includes(charArray[i]);
+                if(charIsSpecial){
+                    specialCharCount++;
                 }
-
-                //determine if password is valid:
-                if(password.length >=13 && letterCount >=1 && numberCount >=1 && specialCharCount ==1){
-                    result = "valid result";
-                }else{ //password is not valid, determine error
-                    if(letterCount < 1){
-                        result = result + ", password must contains at lease one letter";
-                    }
-                    if(numberCount < 1){
-                        result = result + ", password must contains at lease one number";
-                    }
-                    if(specialCharCount != 1){
-                        result = result + `, password must contains exactly one special character`;
-                    }
+                if(charArray[i] != " " && isNaN(charArray[i]) == false){
+                    numberCount++;
+                }
+                var charCode = charArray[i].charCodeAt(0);
+                if((charCode >= 65 && charCode < 91) || (charCode >= 97 && charCode < 123)){
+                    letterCount++;
+                }
+            }
+            console.log(numberCount+"   "+letterCount+"   "+specialCharCount);
+            //determine if password is valid:
+            if(password.length >=13 && letterCount >=1 && numberCount >=1 && specialCharCount ==1){
+                result = "valid password";
+            }else{ //password is not valid, determine error
+                if(password.length < 13){
+                    result = result + ", password must be at least 13 characters";
+                }
+                if(letterCount < 1){
+                    result = result + ", password must contains at least 1 letter";
+                }
+                if(numberCount < 1){
+                    result = result + ", password must contains at least 1 number";
+                }
+                if(specialCharCount != 1){
+                    result = result + `, password must contains exactly 1 special character`;
                 }
             }
         }
@@ -205,7 +203,7 @@ function iterationFourPasswordVerification(password){
                 result = "valid password";
             }else{
                 if(password.length < 13){ // admin password must be at least 13 characters
-                    result = result + ", password must be at lease 13 characters long";
+                    result = result + ", password must be at least 13 characters long";
                 }
                 if(specialCharCount < 3){ // admin password must contains at least 3 special char
                     result = result + ", password must contain at least three special characters";

@@ -1,0 +1,71 @@
+#Author: jiajunatwork@gmail.com
+#This is a coding challenge from Ultranaut.
+#/*
+#Iteration 3
+#The tool must now take into account the type of user that a password is for. 
+#Admin users require a stronger password than regular users.
+#
+#Passwords for Admin users must be at least 13 characters in length
+#Passwords for Admin users must contain a special character ('!', '@', '#', '$', '%', '^', '&', or '*')
+#The password requirements for regular users are unchanged
+#*/
+## Analysis: possbile outcomes of different factors
+# For Admin: 
+# length: 0, less than 13, 13, greater than 13
+# letter count: 0, 1, greater than 1
+# number count: 0, 1, greater than 1
+# special character count: 0, 1, greater than 1
+#
+#For normal user: 
+# length: 0, less than 8, 8, greater than 8
+# letter count: 0, 1, greater than 1
+# number count: 0, 1, greater than 1
+#
+#//Assumption: empty space is not a letter, but still chount as a charaster, so 1234_678 is 8 character long, but not a valid password
+#//Assumption: admin password must contains one and only one special character
+#/* returns: "valid password" if one role is selected and password is valid for the selected role
+#   returns: "invalid password ...." with error message if one role is selected, but password is not valid for selected role
+
+*/
+#
+# note: null = user didnt input password, _ = space or some other random special characters
+#@tag
+#Feature: Iteration 1 of password verification app
+#
+#  @tag1
+#  Scenario: password verification app should judge user's password based on the iteration 1 guideline
+#    Given User launch the password verification app
+#    When user input his password
+#    And user clicked on the "check my password" button
+#    Then the app should provide a judgement on the password that user entered
+# The data below is based on normal user's 8 character long password. To create data for admin, I need to add 5 "_" to each password below. 
+# each password below is a possible password with 0 special characters. So for each password below, attach choices of exactly 1 / greater than 1 special character. Then I will get all possible kinds of password combination
+#     | password  | outcome |
+      | null      | F       |
+      | _____     | F       |
+      | a_____    | F       |
+      | aa____    | F       |
+      | 1_____    | F       |
+      | 1a___     | F       |
+      | 1aa_      | F       |
+      | 11_       | F       |
+      | 11a_      | F       |
+      | 11aa_     | F       |
+      | ________  | F       |
+      | a_______  | F       |
+      | aa______  | F       |
+      | 1_______  | F       |
+      | 1a______  | T       |
+      | 1aa_____  | T       |
+      | 11______  | F       |
+      | 11a_____  | T       |
+      | 11aa____  | T       |
+      | _________ | F       |
+      | a________ | F       |
+      | aa_______ | F       |
+      | 1________ | F       |
+      | 1a_______ | T       |
+      | 1aa______ | T       |
+      | 11_______ | F       |
+      | 11a______ | T       |
+      | 11aa_____ | T       |

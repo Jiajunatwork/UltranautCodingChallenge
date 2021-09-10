@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="passwordVerification.js"></script>
+<body>
+    <div class="container">
+      <h1>Password Checker</h1>
+      <p>This is a simple appliation to validate password</p>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="text" id = "psw" placeholder="Enter Password" name="psw" required>
+      <br>
+      <p> please select your role: </p>
+      <select id="roleSelection">
+          <option value="normal">normal</option>
+          <option value="admin">admin</option>
+    </select>
+      <p id="msg" style="visibility: hidden;" style="text-decoration-color: red;"> this is the validation message</p>
+      <div class="clearfix">
+        <button type="submit" class="signupbtn" onClick="verifyPassword()">Check My Password</button>
+      </div>
+    </div>
+</body>
+</html>
+

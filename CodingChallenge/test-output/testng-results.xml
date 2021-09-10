@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
+<testng-results skipped="0" failed="0" ignored="0" total="112" passed="112">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5708" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:36 EDT">
+  <suite name="Default suite" duration-ms="22999" started-at="2021-09-10T03:52:05 EDT" finished-at="2021-09-10T03:52:28 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5708" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:36 EDT">
-      <class name="qa.tests.Iteration2Test">
-        <test-method status="PASS" signature="startApp()[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="startApp" is-config="true" duration-ms="1897" started-at="2021-09-10T01:02:30 EDT" finished-at="2021-09-10T01:02:32 EDT">
+    <test name="Default test" duration-ms="22999" started-at="2021-09-10T03:52:05 EDT" finished-at="2021-09-10T03:52:28 EDT">
+      <class name="qa.tests.Iteration3Test">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="startApp" is-config="true" duration-ms="1851" started-at="2021-09-10T03:52:05 EDT" finished-at="2021-09-10T03:52:07 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="158" started-at="2021-09-10T01:02:32 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="245" started-at="2021-09-10T03:52:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:07 EDT">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="153" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="230" started-at="2021-09-10T03:52:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null    !]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:07 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null   @#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="199" started-at="2021-09-10T03:52:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:08 EDT">
           <params>
             <param index="0">
               <value>
@@ -39,11 +107,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="138" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="184" started-at="2021-09-10T03:52:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[         $]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="203" started-at="2021-09-10T03:52:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:08 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[        %^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:08 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:09 EDT">
           <params>
             <param index="0">
               <value>
@@ -55,11 +191,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="189" started-at="2021-09-10T03:52:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="172" started-at="2021-09-10T03:52:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a         &]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="189" started-at="2021-09-10T03:52:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a        *!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:09 EDT">
           <params>
             <param index="0">
               <value>
@@ -71,11 +275,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="190" started-at="2021-09-10T03:52:09 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa         ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="173" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa        @]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="175" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa       #$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="189" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
           <params>
             <param index="0">
               <value>
@@ -87,11 +359,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="154" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="192" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="170" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1         %]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="173" started-at="2021-09-10T03:52:10 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1        ^&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
           <params>
             <param index="0">
               <value>
@@ -103,11 +443,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:33 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="189" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a        ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="173" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a       *]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="173" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a      !@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:11 EDT">
           <params>
             <param index="0">
               <value>
@@ -119,11 +527,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:33 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:11 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:12 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa     #]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:12 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa    $%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:12 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:12 EDT">
           <params>
             <param index="0">
               <value>
@@ -135,139 +611,16 @@
                 <![CDATA[F]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="139" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
-                <![CDATA[11a ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
+                <![CDATA[normal]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="143" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[11aa ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[        ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[a       ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aa      ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="135" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1       ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1a      ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[T]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="123" started-at="2021-09-10T01:02:34 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1aa     ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[T]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="138" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:12 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:12 EDT">
           <params>
             <param index="0">
               <value>
@@ -279,11 +632,814 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="173" started-at="2021-09-10T03:52:12 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11     ^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11    &*]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="169" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a     !]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a    @#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:13 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:14 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:14 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa     $]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:14 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa    %^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:14 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[        ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:14 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[             ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="170" started-at="2021-09-10T03:52:15 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[            &]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:15 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[           *!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:15 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a       ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:15 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:15 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a            ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="172" started-at="2021-09-10T03:52:15 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a           @]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="172" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a          #$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="199" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa          %]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="170" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa         ^&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:16 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1       ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:17 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1            ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:17 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1           *]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="170" started-at="2021-09-10T03:52:17 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1          !@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:17 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="177" started-at="2021-09-10T03:52:17 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="182" started-at="2021-09-10T03:52:18 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a          #]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="181" started-at="2021-09-10T03:52:18 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a         $%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="214" started-at="2021-09-10T03:52:18 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:18 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:18 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa         ^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:19 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa        &*]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="203" started-at="2021-09-10T03:52:19 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="184" started-at="2021-09-10T03:52:19 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:19 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11          !]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:19 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11         @#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
           <params>
             <param index="0">
               <value>
@@ -295,11 +1451,79 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="203" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a         $]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="170" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a        %^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:20 EDT">
           <params>
             <param index="0">
               <value>
@@ -311,11 +1535,79 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="201" started-at="2021-09-10T03:52:20 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa         ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:21 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa        &]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:21 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa       *!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:21 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:21 EDT">
           <params>
             <param index="0">
               <value>
@@ -327,11 +1619,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="199" started-at="2021-09-10T03:52:21 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[              ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:21 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[             @]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:22 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[            #$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:22 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:22 EDT">
           <params>
             <param index="0">
               <value>
@@ -343,11 +1703,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="184" started-at="2021-09-10T03:52:22 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a             ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:22 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a            %]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="169" started-at="2021-09-10T03:52:22 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a           ^&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="217" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
           <params>
             <param index="0">
               <value>
@@ -359,11 +1787,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="124" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:35 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa            ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa           *]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="169" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa          !@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="186" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:23 EDT">
           <params>
             <param index="0">
               <value>
@@ -375,11 +1871,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="128" started-at="2021-09-10T01:02:35 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="204" started-at="2021-09-10T03:52:23 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1             ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:24 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1            #]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="169" started-at="2021-09-10T03:52:24 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1           $%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:24 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:24 EDT">
           <params>
             <param index="0">
               <value>
@@ -391,11 +1955,79 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="125" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:24 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a            ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:24 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a           ^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="171" started-at="2021-09-10T03:52:25 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a          &*]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="187" started-at="2021-09-10T03:52:25 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:25 EDT">
           <params>
             <param index="0">
               <value>
@@ -407,11 +2039,79 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:25 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:25 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa          !]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="184" started-at="2021-09-10T03:52:25 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1aa         @#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
           <params>
             <param index="0">
               <value>
@@ -423,11 +2123,79 @@
                 <![CDATA[F]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="127" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="217" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11            ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="174" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11           $]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11          %^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:26 EDT">
           <params>
             <param index="0">
               <value>
@@ -439,11 +2207,79 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="iteration1(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="iteration1" duration-ms="126" started-at="2021-09-10T01:02:36 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="202" started-at="2021-09-10T03:52:26 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="188" started-at="2021-09-10T03:52:27 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a          &]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:27 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11a         *!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="200" started-at="2021-09-10T03:52:27 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:27 EDT">
           <params>
             <param index="0">
               <value>
@@ -455,15 +2291,83 @@
                 <![CDATA[T]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteration1 -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:qa.tests.Iteration2Test@2a742aa2]" name="closeApp" is-config="true" duration-ms="51" started-at="2021-09-10T01:02:36 EDT" finished-at="2021-09-10T01:02:36 EDT">
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="185" started-at="2021-09-10T03:52:27 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa          ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="172" started-at="2021-09-10T03:52:27 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa         @]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="iteration3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="iteration3" duration-ms="203" started-at="2021-09-10T03:52:28 EDT" data-provider="iteration1DataProvider" finished-at="2021-09-10T03:52:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11aa        #$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration3 -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:qa.tests.Iteration3Test@2a742aa2]" name="closeApp" is-config="true" duration-ms="50" started-at="2021-09-10T03:52:28 EDT" finished-at="2021-09-10T03:52:28 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- qa.tests.Iteration2Test -->
+      </class> <!-- qa.tests.Iteration3Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

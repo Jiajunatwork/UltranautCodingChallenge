@@ -32,7 +32,7 @@ public class Iteration2Test {
 		driver.close();
 	}
 	@Test(dataProvider = "iteration1DataProvider")
-	public void iteration1(String password, String result) {
+	public void iteration2(String password, String result) {
 		userEnterPassword(password);
 		userClickOnCheckMyPassword();
 		String judgementResult = getResult();
